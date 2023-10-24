@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contato</title>
+    <style>
+        body {
+            font-family: Andale Mono, monospace; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+    </header>
+    <section>
+        <h3>Email</h3>
+        <p>sarasouza.m@gmail.com</p>
+
+        <h3>Telefone</h3>
+        <p>85 986674313 </p>
+        <br>
+        <br>
+
+        
+        <h2>Deseja entrar em contato? </h2>
+        <!-- formulário de input para o contato -->
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <br>
+        <button onclick="window.location.href='index.html'">Voltar ao Início</button>
+    </section>
+</body>
+</html>
